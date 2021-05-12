@@ -1,0 +1,15 @@
+@import "./styles/scss/variable.scss";
+
+body {
+    background-color: $light-color-blue;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding:  $navbar-height 0 0 0;
+}
+
+.page {
+    composes: max1200 from './styles/layout.module.scss';
+    min-height: calc(100vh - #{$navbar-height});
+    overflow: auto; // prevents margin on headings pushing the whole div down, messing up ex. min-height: 100vh
+}

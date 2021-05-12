@@ -1,0 +1,72 @@
+{
+  "name": "car-maintenance-pwa",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5001",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@react-google-maps/api": "^2.1.1",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.1",
+    "aws-sdk": "^2.845.0",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "crypto-browserify": "^3.12.0",
+    "date-fns": "^2.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "joi-browser": "^13.4.0",
+    "node-sass": "^5.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "serverless-http": "^2.7.0",
+    "uuid": "^8.3.2",
+    "validatorjs": "^3.22.1",
+    "web-push": "^3.4.4",
+    "web-vitals": "^0.2.4",
+    "workbox-background-sync": "^5.1.4",
+    "workbox-broadcast-update": "^5.1.4",
+    "workbox-cacheable-response": "^5.1.4",
+    "workbox-core": "^5.1.4",
+    "workbox-expiration": "^5.1.4",
+    "workbox-google-analytics": "^5.1.4",
+    "workbox-navigation-preload": "^5.1.4",
+    "workbox-precaching": "^5.1.4",
+    "workbox-range-requests": "^5.1.4",
+    "workbox-routing": "^5.1.4",
+    "workbox-strategies": "^5.1.4",
+    "workbox-streams": "^5.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint --fix src/**/*.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-react": "^7.22.0",
+    "nodemon": "^2.0.7"
+  }
+}

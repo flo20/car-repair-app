@@ -1,0 +1,42 @@
+@import "./../../styles/scss/variable.scss";
+
+.navbar {
+    background-color: $primary-shade-dark;
+    color: $light-color-blue;
+    height: $navbar-height;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10000;
+}
+
+.contentWrap {
+    composes: max1200 flexSpaceBetween from "./../../styles/layout.module.scss";
+}
+
+.img {
+    height: calc(#{$navbar-height} - #{$padding});
+    padding: calc(#{$padding} / 2);
+}
+
+.menu {
+    display: flex;
+    height: $navbar-height;
+    margin: 0;
+}
+
+.menuItem {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: calc(#{$padding} / 2) $padding;
+}
+
+.menuItem a {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+        opacity: 0.6;
+    }
+}

@@ -1,0 +1,24 @@
+@import "./../../../styles/scss/variable.scss";
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+
+.saveButton {
+    composes: btn from "./../../../styles/elements.module.scss";
+    margin-left: $margin;
+    width: 4rem;
+    font-size: 16px;
+}
+
+.box {
+    padding: 4px;
+    width:100%;
+    border:$primary-color 1px solid;
+    outline: none;
+    border-radius: 4px;
+}

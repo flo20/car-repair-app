@@ -1,0 +1,46 @@
+@import "./../../styles/scss/variable.scss";
+
+.chatDisplay {
+    composes: flexColumn from "./../../styles/layout.module.scss";
+    background-color: $white;
+    border-radius: 2px;
+    box-shadow: inset 0px 0px 10px rgba($gray, 0.45);
+    height: 60vh;
+    margin: calc(#{$margin} / 2) 0;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+@media only screen and (min-height: 1000px) {
+    .chatDisplay {
+        height: 75vh;
+    }
+}
+
+.loadingChat {
+    composes: flexCenter from "./../../styles/layout.module.scss";
+    align-items: center;
+    color: $gray;
+    height: 100%;
+    width: 100%;
+}
+
+.chatForm {
+    display: grid;
+    grid-template-columns: auto 3em;
+    margin: calc(#{$margin} / 2) 0;
+}
+
+.chatInput {
+    composes: input from "./../../styles/elements.module.scss";
+    border: 1px solid $gray;
+    border-radius: 2px 0 0 2px;
+    min-width: 220px;
+}
+
+.sendBtn {
+    composes: btn from "./../../styles/elements.module.scss";
+    width: 100%;
+    border-radius: 0 3px 3px 0;
+    // margin-left: calc(#{$margin} / 2);
+}

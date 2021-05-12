@@ -1,0 +1,29 @@
+@import "./../../../styles/scss/variable.scss";
+
+.chatHeader {
+    align-items: center;
+    display: flex;
+    height: $chat-header-height;
+    justify-content: space-between;
+}
+
+.buttonBack {
+    composes: btn from "./../../../styles/elements.module.scss";;
+    background-color: $primary-shade-light;
+    & svg {
+        padding-right: $padding;
+    }
+}
+
+.chatInfo {
+    & p {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .chatHeader {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,16 @@
+@import "./../../../styles/scss/variable.scss";
+
+.btnNext {
+    composes: btn from "./../../../styles/elements.module.scss";
+    background-color: $primary-color;
+}
+
+.btnBack {
+    composes: btn from "./../../../styles/elements.module.scss";
+    background-color: $primary-shade-light;
+}
+
+.buttonsWrap {
+    composes: flexSpaceBetween pGeneral from "./../../../styles/layout.module.scss";
+    flex-direction: row-reverse;
+}

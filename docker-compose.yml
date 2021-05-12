@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+
+  dynamodb-local:
+    container_name: car-maintenance-pwa-dynamodb
+    image: "amazon/dynamodb-local:latest"
+    command: "-jar DynamoDBLocal.jar -sharedDb -optimizeDbBeforeStartup -dbPath ./data"
+    ports:
+      - "8989:8000"
+    volumes:
+      - "./docker/dynamodb:/home/dynamodblocal/data"
+    working_dir: /home/dynamodblocal
+
+  mercure:
+    image: dunglas/mercure:latest
+    container_name: car-maintenance-pwa-mercure
+    command: "caddy run -config /etc/caddy/Caddyfile.dev"
+    environment:
+      SERVER_NAME: ":80"
+      MERCURE_PUBLISHER_JWT_KEY: "!ChangeMe!"
+      MERCURE_SUBSCRIBER_JWT_KEY: "!ChangeMe!"
+    ports:
+      - "8998:80"

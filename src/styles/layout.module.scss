@@ -1,0 +1,57 @@
+@import "./scss/variable.scss";
+
+.flexSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexColumnCenter {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.max1200 {
+    margin: 0 auto;
+    max-width: 1200px;
+    //width: 100vw;
+}
+
+.pGeneral {
+    padding: $padding;
+}
+
+.pGeneralX {
+    padding-left: $padding;
+    padding-right: $padding;
+}
+
+.pGeneralY {
+    padding-bottom: $padding;
+    padding-top: $padding;
+}
+
+.mGeneral {
+    margin: $margin;
+}
+
+.mGeneralX {
+    margin-left: $margin;
+    margin-right: $margin;
+}
+
+.mGeneralY {
+    margin-bottom: $margin;
+    margin-top: $margin;
+}

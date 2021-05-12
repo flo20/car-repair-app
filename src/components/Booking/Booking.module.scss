@@ -1,0 +1,11 @@
+@import "./../../styles/scss/variable.scss";
+
+.bookingPage {
+    composes: flexColumn from "./../../styles/layout.module.scss";
+    justify-content: space-between;
+    min-height: calc(100vh - #{$navbar-height});
+}
+
+.bookingStep {
+    width: 100%;
+}

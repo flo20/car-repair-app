@@ -1,0 +1,61 @@
+@import "./../../../styles/scss/variable.scss";
+
+.container {
+  height: $chat-header-height;
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.timeline {
+  background-color: $light-color-red;
+  // border: 1px solid $primary-shade-light;
+  margin: 20px 15px 40px;
+  height: 5px;
+}
+
+.bar {
+  background-color: $primary-shade-light;
+  height: 100%;
+}
+
+.timelineItems {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -5px;
+  margin-right: -5px;
+  // margin-top: -20px;
+  margin-top: -16px;
+}
+
+.circle {
+  background-color: $light-color-red;
+  // border: 0.1px solid $primary-shade-light;
+  border-radius: 50%;
+  content: " ";
+  display: block;
+  height: 25px;
+  position: relative;
+  width: 25px;
+}
+
+.stage {
+  color: $primary-shade-dark;
+  font-size: 11px;
+  font-weight:bold;
+  left: 60%;
+  padding-top: 35px;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-53%);
+}
+
+
+// Estimated pick up time, price
+.estimate {
+  color: $primary-shade-light;
+  font-size: 14px;
+  text-align: center;
+  & p {
+    margin: 0;
+  }
+}

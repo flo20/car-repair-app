@@ -1,0 +1,112 @@
+[
+    {
+        "bookingId": "bef6c630-873f-46e2-a3f1-e3c56e40ef8d",
+        "apptStatus": {
+            "id": 1,
+            "text": "Booked"
+        },
+        "shop": "Repair Shop 1 Kamppi",
+        "date": "2021-03-04",
+        "time": "8:30",
+        "name": "John Doe",
+        "email": "john@doe.com",
+        "phone": "1112223333",
+        "brand": "Fiat",
+        "model": "Panda",
+        "licence_number": "ABC-123",
+        "year": "2005",
+        "mileage": "200000",
+        "image": "",
+        "details": "Driver-side window glass cracked, driver-side both door damaged.",
+        "pickup_date": "",
+        "pickup_time": ""
+    },
+    {
+        "bookingId": "230882ed-5158-43a1-a362-8fe42e6ae06c",
+        "apptStatus": {
+            "id": 1,
+            "text": "Booked"
+        },
+        "shop": "Repair Shop 2 Lintuvaara",
+        "date": "2021-03-08",
+        "time": "16:00",
+        "name": "Mickey Mouse",
+        "email": "mickey@disney.com",
+        "phone": "1239871234",
+        "brand": "Volvo",
+        "model": "S60",
+        "licence_number": "MMM-111",
+        "year": "2020",
+        "mileage": "50000",
+        "image": "",
+        "details": "Check-up",
+        "pickup_date": "",
+        "pickup_time": ""
+    },
+    {
+        "bookingId": "936592so-9375-9xj3-a9374-2md8j47d6s08",
+        "apptStatus": {
+            "id": 1,
+            "text": "Booked"
+        },
+        "shop": "Repair Shop 5 Sörnäinen",
+        "date": "2021-04-01",
+        "time": "12:00",
+        "name": "Scooby Doo",
+        "email": "woof@woof.com",
+        "phone": "9998887776",
+        "brand": "Volkswagen",
+        "model": "LT 40",
+        "licence_number": "BOO-777",
+        "year": "1978",
+        "mileage": "700000",
+        "image": "",
+        "details": "Paint scratched on the whole vehicle. Punctured front right tyre.",
+        "pickup_date": "",
+        "pickup_time": ""
+    },
+    {
+        "bookingId": "msi39ejs-3h57-ns96-o38d-2nd7k59w77dj",
+        "apptStatus": {
+            "id": 1,
+            "text": "Booked"
+        },
+        "shop": "Repair Shop 3 Malmi",
+        "date": "2021-03-21",
+        "time": "12:00",
+        "name": "Anna Whoever",
+        "email": "anna@gmail.com",
+        "phone": "1116661116",
+        "brand": "Fiat",
+        "model": "Punto",
+        "licence_number": "MDR-239",
+        "year": "1999",
+        "mileage": "93728",
+        "image": "",
+        "details": "checkup",
+        "pickup_date": "",
+        "pickup_time": ""
+    },
+    {
+        "bookingId": "snr665ks-aj67-3956-aj24-jk3id89y7d5s",
+        "apptStatus": {
+            "id": 1,
+            "text": "Booked"
+        },
+        "shop": "Repair Shop 2 Lintuvaara",
+        "date": "2021-03-10",
+        "time": "10:30",
+        "name": "Bob Jones",
+        "email": "bob@gmail.com",
+        "phone": "9435729042",
+        "brand": "Mercedes",
+        "model": "E500",
+        "licence_number": "NICE-1",
+        "year": "1994",
+        "mileage": "294729",
+        "image": "",
+        "details": "Checkup. Windshield wipers not working properly.",
+        "pickup_date": "",
+        "pickup_time": ""
+    }
+]

@@ -1,0 +1,40 @@
+@import "./../../../styles/scss/variable.scss";
+
+.table {
+    composes: mGeneralY from '../../../styles/layout.module.scss';
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tRow {
+    border: none;
+    &:nth-child(even) {
+        background-color: $light-color-gray;
+    }
+    & td, 
+    & th {
+        border-left: solid 1px $gray;
+        border-right: solid 1px $gray;
+        padding: calc(#{$padding} / 4);
+        &:first-of-type {
+            border-left: none;
+        }
+        &:last-of-type {
+            border-right: none;
+        }
+    }
+}
+
+.tHead {
+    composes: tRow;
+    background-color: $light-color-gray;
+    text-align: left;
+}
+
+.button {
+    composes: btn from '../../../styles/elements.module.scss';
+    font-size: 1rem;
+    margin: calc(#{$margin} / 2);
+    max-width: $button-width;
+    width: calc(100% - #{$margin});
+}

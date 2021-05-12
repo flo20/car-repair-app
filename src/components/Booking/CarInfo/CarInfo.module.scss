@@ -1,0 +1,21 @@
+@import "./../../../styles/scss/variable.scss";
+
+// hide the original input type="file"
+.fileInput {
+    position:absolute;
+    top: -1000px;
+    z-index: -100;
+}
+
+// custom file upload - label looking like button
+.customUploadBtn {
+    composes: btn from "./../../../styles/elements.module.scss";
+    padding: calc(#{$padding} / 2);
+}
+
+.carImgPreview {
+    display: block;
+    max-height: 150px;
+    max-width: 150px;
+    margin: calc(#{$padding} / 2);
+}

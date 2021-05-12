@@ -1,0 +1,29 @@
+@import "./../../../styles/scss/variable.scss";
+
+.buttonsWrap {
+    composes: flexSpaceBetween from "./../../../styles/layout.module.scss";
+}
+
+.button {
+    composes: btn from "./../../../styles/elements.module.scss";
+    & svg {
+        padding-right: $padding;
+    }
+}
+
+.buttonBack {
+    composes: button;
+    background-color: $primary-shade-light;
+}
+
+.saveButton {
+    composes: btn from "./../../../styles/elements.module.scss";
+    margin-left: $margin;
+    width: 4rem;
+    font-size: 16px;
+}
+
+
+.inputField{
+    composes: box from "./../../../styles/elements.module.scss"
+}

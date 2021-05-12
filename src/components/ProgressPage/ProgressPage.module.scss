@@ -1,0 +1,7 @@
+@import "./../../styles/scss/variable.scss";
+
+.pageWrapper {
+    composes: pGeneralX from "./../../styles/layout.module.scss";
+    min-height: calc(100vh - #{$navbar-height} - 20px);
+    // the 20px is margin-top of .timeline in CustomerStatus
+}

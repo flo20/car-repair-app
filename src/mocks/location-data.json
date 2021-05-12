@@ -1,0 +1,27 @@
+[
+    {
+    "name": "Repair Shop 1 Kamppi",
+    "pos": { "lat": 60.166097, "lng": 24.929131 },
+    "id": 1
+    },
+    {
+    "name": "Repair Shop 2 Lintuvaara",
+    "pos": { "lat": 60.230579, "lng": 24.807536 },
+    "id": 2
+    },
+    {
+    "name": "Repair Shop 3 Malmi",
+    "pos": { "lat": 60.243928, "lng": 25.045782 },  
+    "id": 3
+    },
+    {
+    "name": "Repair Shop 4 Pasila",
+    "pos": { "lat": 60.197431, "lng": 24.927516 },  
+    "id": 4
+    },
+    {
+    "name": "Repair Shop 5 Sörnäinen",
+    "pos": { "lat": 60.184490, "lng": 24.958177 },  
+    "id": 5
+    }
+]
