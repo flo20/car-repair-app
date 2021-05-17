@@ -135,3 +135,6 @@ Open Mercure in http://localhost:8998/.well-known/mercure/ui/
 - `pickup_time`: Updated estimated pickup time
 - `pickup_date`: Updated estimated pickup date
 
+### Collaborators
+- Beata Kuśnierz
+- Florence Anipa 
