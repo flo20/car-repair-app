@@ -137,4 +137,4 @@ Open Mercure in http://localhost:8998/.well-known/mercure/ui/
 
 ### Collaborators
 - Beata Kuśnierz
-- Florence Anipa 
+- Florence Adiamah 
